@@ -42,3 +42,4 @@ coverage/
 *.temp
 .cache/
 EOF
+images.tar

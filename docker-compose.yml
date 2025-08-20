@@ -1,0 +1,11 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend:/app      # 开发热重载可删
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
